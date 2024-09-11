@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+       {
+          "name": "Run Train Script",
+          "type": "python",
+          "request": "launch",
+          "program": "${workspaceFolder}/gymnasium_envrionments/scripts/train.py",
+          "args": [
+             "run",
+             "--gym", "pyboy",
+             "--domain", "pokemon",
+             "--task", "brock",
+             "TD3"
+          ],
+          "console": "integratedTerminal",
+          "cwd": "${workspaceFolder}",
+          "pythonPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+          "env": {
+             "PYTHONPATH": "${workspaceFolder}"
+          }
+       }
+    ]
+ }
+ 
