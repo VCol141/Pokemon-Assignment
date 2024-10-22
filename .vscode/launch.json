@@ -11,7 +11,7 @@
              "--gym", "pyboy",
              "--domain", "pokemon",
              "--task", "brock",
-             "TD3"
+             "PPO"
           ],
           "console": "integratedTerminal",
           "cwd": "${workspaceFolder}",
